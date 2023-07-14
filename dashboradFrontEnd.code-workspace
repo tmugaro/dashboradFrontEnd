@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "dashboradFrontEnd",
+			"path": "."
+		}
+	],
+	"settings": {
+		"git-blame.gitWebUrl": ""
+	}
+}

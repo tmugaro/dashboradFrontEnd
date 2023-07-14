@@ -1,0 +1,22 @@
+<div class="vitals">
+    <div class="vital">
+      <div class="label">Heart Rate:</div>
+      <div class="value">{{ heartRate }} bpm</div>
+      <div class="alert" *ngIf="getHeartRateAlert()">{{ getHeartRateAlert() }}</div>
+    </div>
+    <div class="vital">
+      <div class="label">Blood Pressure:</div>
+      <div class="value">{{ bloodPressure }}</div>
+      <div class="alert" *ngIf="getBloodPressureAlert()">{{ getBloodPressureAlert() }}</div>
+    </div>
+    <div class="vital">
+      <div class="label">Respiratory Rate:</div>
+      <div class="value">{{ respiratoryRate }} bpm</div>
+      <div class="alert" *ngIf="getRespiratoryRateAlert()">{{ getRespiratoryRateAlert() }}</div>
+    </div>
+    <div class="vital">
+      <div class="label">Temperature:</div>
+      <div class="value">{{ temperature }} &deg;C</div>
+      <div class="alert" *ngIf="getTemperatureAlert()">{{ getTemperatureAlert() }}</div>
+    </div>
+  </div>
